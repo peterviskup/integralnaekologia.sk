@@ -2,16 +2,19 @@ baseURL = 'https://integralnaekologia.sk/'
 locale = 'sk'
 title = 'Integrálna ekológia'
 author = 'Peter Viskup'
-copyright = 'Peter Viskup'
+copyright = 'Peter Viskup. Všetky práva vyhradené.'
 theme = 'ananke'
-text_color = 'green'
-#body_classes = 'bg-green'
 [params]
-  description = 'Integrálna ekológia podľa encykliky Laudato si pápeža Františka'
+  description = "Integrálna ekológia podľa encykliky Laudato Si' pápeža Františka"
   #site_logo = "img/earth-icon.png"
   featured_image = "/img/cover-frantisek.jpg"
-  #featured_image_class = ""
-  background_color_class = 'bg-dark-green'
+  featured_image_class = "cover bg-top bg-green"
+  background_color_class = "bg-green"
+  #cover_dimming_class = "bg-dark-green-40"
+  cover_dimming_class = "bg-black-40"
+  body_classes = "bg-light-blue"
+  #text_color = "green"
+  keywords = ['integrálna', 'ekológia' , 'životné', 'prostredie', 'ekonómia', 'spoločnosť']
 
 [caches]
   [caches.images]
